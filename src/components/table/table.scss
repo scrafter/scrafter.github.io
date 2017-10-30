@@ -1,0 +1,25 @@
+.table {
+  background-color: #fff;
+  height: 100vh;
+  min-height: 300px;
+  position: relative;
+
+  .content {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    position: relative;
+    height: calc(100% - 60px);
+
+    & > div {
+      display: flex;
+      flex: 1;
+      height: 100%;
+      padding: 10px;
+
+      &:not(:last-of-type) {
+        border-right: 1px solid #ccc;
+      }
+    }
+  }
+}
