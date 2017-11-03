@@ -1,0 +1,29 @@
+.viewToggler {
+
+  .btnToggler {
+    border: 0;
+    background-color: #fff;
+    padding: 10px 13px;
+    transition: all 0.3s ease-in-out;
+
+    &:first-of-type { border-radius: 8px 0 0 8px; }
+    &:last-of-type { border-radius: 0 8px 8px 0; }
+
+    &:hover {
+      cursor: pointer;
+      background-color: lighten(#34495e, 60%);
+    }
+
+    &:focus {
+      outline: none;
+    }
+
+    &:active {
+      background-color: lighten(#34495e, 50%);
+    }
+
+    &.inactive {
+      background-color: lighten(#34495e, 40%);
+    }
+  }
+}

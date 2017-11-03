@@ -1,0 +1,1 @@
+export const CHANGE_VIEW = 'VIEW_TOGGLER/CHANGE_VIEW';
