@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
 import styles from './app.scss';
-import Table from '../table/table.component';
 import Footer from '../footer/footer.component';
+import { TableContainer } from '../table/table.container';
 
 export default class App extends Component {
   render() {
     return (
       <div className={styles.appContainer}>
-        <Table/>
+        <TableContainer/>
         <Footer/>
       </div>
     );
