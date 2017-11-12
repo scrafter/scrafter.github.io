@@ -1,22 +1,25 @@
 import React, { Component } from 'react';
 import styles from './view-toggler.scss';
+import CSSModules from 'react-css-modules';
 
-export default class ViewToggler extends Component {
+
+class ViewToggler extends Component {
   render() {
-    const { edit, preview, chat } = this.props.views;
+    // const { edit, preview, chat } = this.props.views;
 
     return (
-      <div className={styles.viewToggler}>
-        <button className={`${styles.btnToggler} ${!edit && styles.inactive}`}
+      <div styleName='view-toggler'>
+        <button styleName='btn-toggler'
                 onClick={this.props.changeView.bind(this, 'edit')}>Edit
         </button>
-        <button className={`${styles.btnToggler} ${!preview && styles.inactive}`}
+        <button styleName='btn-toggler'
                 onClick={this.props.changeView.bind(this, 'preview')}>Preview
         </button>
-        <button className={`${styles.btnToggler} ${!chat && styles.inactive}`}
+        <button styleName='btn-toggler'
                 onClick={this.props.changeView.bind(this, 'chat')}>Chat
         </button>
       </div>
     );
   }
 }
+export default CSSModules(ViewToggler, styles);

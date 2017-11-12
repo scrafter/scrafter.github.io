@@ -175,17 +175,27 @@ module.exports = {
           {
             test: /\.scss$/,
             use: [
-              'style-loader',
+              {
+                loader: 'style-loader',
+                query: {
+                  sourceMap: true
+                }
+              },
               {
                 loader: 'css-loader',
                 query: {
                   modules: true,
-                  sourceMap: true,
-                  importLoaders: 2,
-                  localIdentName: '[name]__[local]___[hash:base64:5]'
+                  importLoaders: 1,
+                  localIdentName: '[path]___[name]__[local]___[hash:base64:5]'
                 }
               },
-              'sass-loader'
+              'resolve-url-loader',
+              {
+                loader: 'sass-loader',
+                query: {
+                  sourceMap: true
+                }
+              }
             ]
           },
           // "file" loader makes sure those assets get served by WebpackDevServer.
@@ -202,7 +212,6 @@ module.exports = {
               /\.js$/,
               /\.html$/,
               /\.json$/,
-              /\.scss$/,
             ],
             loader: require.resolve('file-loader'),
             options: {
