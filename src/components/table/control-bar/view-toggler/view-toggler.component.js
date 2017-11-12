@@ -3,7 +3,8 @@ import styles from './view-toggler.scss';
 import CSSModules from 'react-css-modules';
 
 
-class ViewToggler extends Component {
+@CSSModules(styles)
+export default class extends Component {
   render() {
     // const { edit, preview, chat } = this.props.views;
 
@@ -22,4 +23,3 @@ class ViewToggler extends Component {
     );
   }
 }
-export default CSSModules(ViewToggler, styles);
