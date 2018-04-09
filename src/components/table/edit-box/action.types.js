@@ -1,1 +1,0 @@
-export const NEW_ITEM = 'TABLE/NEW_ITEM';

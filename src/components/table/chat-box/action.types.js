@@ -1,1 +1,0 @@
-export const SEND_MESSAGE = 'CHAT/SEND_MESSAGE';
