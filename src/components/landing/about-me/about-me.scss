@@ -1,0 +1,103 @@
+@import "../../../index";
+
+.about-me {
+  min-height: calc(100vh - 80px);
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 25px 35px;
+
+  .avatar {
+    height: 200px;
+    width: 200px;
+    background-image: url('../../../public/img/profile-photo.jpg');
+    background-size: cover;
+    border-radius: 50%;
+    border: 4px solid $main-blue;
+    margin: 30px 0;
+    transition: 0.3s all linear;
+    &:hover {
+      transform: scale(1.1);
+    }
+  }
+
+  .experience-wrapper {
+    margin: 30px 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .experience {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 12px 0;
+    font-size: 24px;
+    font-weight: 300;
+    max-width: 75%;
+    text-align: center;
+    .date {
+      font-weight: 600;
+      margin-bottom: 12px;
+    }
+
+    a {
+      color: black;
+    }
+  }
+
+  .skills {
+    display: flex;
+    margin: 30px 0;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    h2 {
+      font-weight: 300;
+      font-size: 36px;
+      width: 100%;
+      text-align: center;
+      margin-bottom: 25px;
+    }
+
+    .item {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      background-image: url('../../../public/img/skills/angular4.png');
+      padding: 25px 30px;
+
+      img {
+        height: 115px;
+        margin-bottom: 10px;
+      }
+
+      p {
+        text-align: center;
+        font-size: 36px;
+        font-weight: 300;
+      }
+    }
+    .photoshop {
+      height: 100px;
+      width: 130px;
+    }
+  }
+
+  .download {
+    margin-top: 30px;
+    text-align: center;
+    font-size: 20px;
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    a {
+      text-decoration: none;
+      color: #000;
+    }
+  }
+}

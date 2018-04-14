@@ -1,0 +1,32 @@
+@import "../../../index";
+
+.footer {
+  background-color: #000;
+  color: #95a5a6;
+  font-weight: 300;
+  padding: 25px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  .location {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    line-height: 1.25em;
+    @media (max-width: $screen-s) {
+      flex-direction: column;
+      p {
+        text-align: center;
+        &:not(:last-of-type) {
+          margin-bottom: 20px;
+        }
+      }
+    }
+  }
+
+  .bottom {
+    text-align: center;
+    margin-top: 25px;
+  }
+}
