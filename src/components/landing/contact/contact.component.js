@@ -2,26 +2,7 @@ import React, { Component } from 'react';
 import CSSModules from 'react-css-modules';
 import styles from './contact.scss';
 import { PhoneIcon, EmailOutlineIcon } from 'mdi-react';
-import toastr from 'toastr';
-import alertify from 'alertify.js/dist/js/alertify';
-
-toastr.options = {
-  "closeButton": true,
-  "debug": true,
-  "newestOnTop": false,
-  "progressBar": false,
-  "positionClass": "toast-bottom-right",
-  "preventDuplicates": false,
-  "onclick": null,
-  "showDuration": "300",
-  "hideDuration": "1000",
-  "timeOut": "50000",
-  "extendedTimeOut": "1000",
-  "showEasing": "swing",
-  "hideEasing": "linear",
-  "showMethod": "fadeIn",
-  "hideMethod": "fadeOut"
-};
+import alertify from 'alertify.js';
 
 const BACKENDLESS_APP_ID = '64444534-C7B3-1BFB-FF73-1AD744931100';
 const BACKENDLESS_KEY = 'D8B53471-AEDA-A6CE-FF24-813BD9E8CA00';

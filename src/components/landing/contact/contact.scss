@@ -68,6 +68,7 @@
     padding: 24px;
     width: 45%;
     background-color: $bg-gray;
+    position: relative;
     @media (max-width: $screen-m) {
       width: 100%;
     }
@@ -80,9 +81,14 @@
       font-weight: 300;
       svg { margin-right: 8px; }
     }
+    a {
+      text-align: center;
+      max-width: 95%;
+    }
     img {
       filter: grayscale(100%);
       width: 400px;
+      max-width: 100%;
       @media (max-width: $screen-s) {
         width: 250px;
       }
