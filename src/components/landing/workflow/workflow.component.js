@@ -18,7 +18,7 @@ export default class Workflow extends Component {
         </p>
         <ArrowDownIcon color="#fff" size={48} />
         <p styleName="step">
-          3. After your positive decision we start work regulary preseting you progress.
+          3. After your positive decision we start work regularly presenting you progress.
         </p>
         <ArrowDownIcon color="#fff" size={48} />
         <p styleName="step">
