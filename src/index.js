@@ -5,6 +5,7 @@ import { createStore, compose } from 'redux';
 import { Provider } from 'react-redux';
 
 import App from './components/app/app.component';
+import '../node_modules/alertify.js/dist/css/alertify.css';
 import './index.scss';
 
 const store = createStore(

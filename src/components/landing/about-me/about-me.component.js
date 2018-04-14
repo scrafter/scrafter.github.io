@@ -75,7 +75,7 @@ export default class AboutMe extends Component {
 
         <div styleName="download">
           <div>
-            <a href="https://www.linkedin.com/in/tomasz-ma%C5%84ka-61946412a/" target="_blank">
+            <a href="https://www.linkedin.com/in/tomasz-ma%C5%84ka-61946412a/" target="_blank" rel="noopener noreferrer">
               <LinkedinIcon color="#3e3e3e" size={48}/>
               <p>LinkedIn<br/>Profile</p>
             </a>
