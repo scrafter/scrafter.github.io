@@ -25,7 +25,7 @@ export default class Contact extends Component {
       subject: 'Wiadomość ze strony ChillSoft.net',
       to: ['mankatomek@gmail.com'],
       bodyparts: {
-        textmessage: content,
+        htmlmessage: content,
       },
     });
 
