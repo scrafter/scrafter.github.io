@@ -42,13 +42,12 @@ export default class Contact extends Component {
     xhr.setRequestHeader('application-type', 'REST');
     xhr.setRequestHeader('Content-Type', 'application/json');
     xhr.send(emailData);
-
   }
 
   render() {
     return (
       <div styleName="contact">
-        <form action="#contact" ref="form" onSubmit={this.onSubmit.bind(this)}>
+        <form ref="form" onSubmit={this.onSubmit.bind(this)}>
           <div styleName="form-group">
             <label htmlFor="email">E-mail</label>
             <input type="email" className="form-control" id="email" ref="email" required/>
