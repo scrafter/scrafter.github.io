@@ -47,7 +47,7 @@ export default class Contact extends Component {
   render() {
     return (
       <div styleName="contact">
-        <form ref="form" onSubmit={this.onSubmit.bind(this)}>
+        <form ref="form">
           <div styleName="form-group">
             <label htmlFor="email">E-mail</label>
             <input type="email" className="form-control" id="email" ref="email" required/>
@@ -64,13 +64,14 @@ export default class Contact extends Component {
             <label htmlFor="message">Message</label>
             <textarea className="form-control" id="message" ref="message" required></textarea>
           </div>
-          <button type="submit">Send</button>
+          <button type="button" onClick={this.onSubmit.bind(this)}>Send</button>
         </form>
         <div styleName="location">
           <p><PhoneIcon color="#fff"/> 606 274 154</p>
           <p><EmailOutlineIcon color="#fff"/> tomek@chillsoft.net</p>
           <a href="https://www.google.com/maps/place/Pr%C4%85dzy%C5%84skiego+50,+50-434+Wroc%C5%82aw/@51.0975238,17.046618,17z/data=!3m1!4b1!4m5!3m4!1s0x470fc262c0f5b20d:0xfe48230540fbed5c!8m2!3d51.0975238!4d17.0488067" target="_blank" rel="noopener noreferrer">
-            <img src="https://maps.googleapis.com/maps/api/staticmap?center=Wrocław+Prądzyńskiego+50&zoom=14&scale=1&size=600x300&maptype=roadmap&key=AIzaSyBsL-n5xheV_x_npFStlVCp5JpUntyuWmI&format=png&visual_refresh=true&markers=size:mid%7Ccolor:0xff0000%7Clabel:%7CWrocław+Prądzyńskiego+50"/>
+            <img src="https://maps.googleapis.com/maps/api/staticmap?center=Wrocław+Prądzyńskiego+50&zoom=14&scale=1&size=600x300&maptype=roadmap&key=AIzaSyBsL-n5xheV_x_npFStlVCp5JpUntyuWmI&format=png&visual_refresh=true&markers=size:mid%7Ccolor:0xff0000%7Clabel:%7CWrocław+Prądzyńskiego+50"
+                 alt="Wrocław, Prądzyńskiego 50/8"/>
           </a>
         </div>
       </div>

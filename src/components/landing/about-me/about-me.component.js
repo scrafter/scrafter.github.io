@@ -10,6 +10,7 @@ import nodejs from '../../../public/img/skills/nodejs.png';
 import rwd from '../../../public/img/skills/rwd.png';
 import git from '../../../public/img/skills/git.png';
 import photoshop from '../../../public/img/skills/photoshop.png';
+import CV from '../../../public/CV.pdf';
 
 
 @CSSModules(styles)
@@ -81,7 +82,7 @@ export default class AboutMe extends Component {
             </a>
           </div>
           <div>
-            <a href="../../../public/CV.pdf" download>
+            <a href={CV} download>
               <PaperclipIcon color="#3e3e3e" size={48}/>
               <p>CV<br/>Download</p>
             </a>
