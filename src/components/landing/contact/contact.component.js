@@ -10,11 +10,9 @@ const BACKENDLESS_URL = `https://api.backendless.com/${BACKENDLESS_APP_ID}/${BAC
 
 @CSSModules(styles)
 export default class Contact extends Component {
-  constructor() {
-    super();
-  }
-
-  onSubmit() {
+  onSubmit(event) {
+    event.target.checkValidity();
+    event.preventDefault();
     const email = this.refs.email.value;
     const name = this.refs.name.value;
     const phoneNumber = this.refs.phoneNumber.value;
@@ -47,7 +45,7 @@ export default class Contact extends Component {
   render() {
     return (
       <div styleName="contact">
-        <form ref="form">
+        <form ref="form" onSubmit={this.onSubmit.bind(this)}>
           <div styleName="form-group">
             <label htmlFor="email">E-mail</label>
             <input type="email" className="form-control" id="email" ref="email" required/>
@@ -64,7 +62,7 @@ export default class Contact extends Component {
             <label htmlFor="message">Message</label>
             <textarea className="form-control" id="message" ref="message" required></textarea>
           </div>
-          <button type="button" onClick={this.onSubmit.bind(this)}>Send</button>
+          <button type="submit">Send</button>
         </form>
         <div styleName="location">
           <p><PhoneIcon color="#fff"/> 606 274 154</p>
