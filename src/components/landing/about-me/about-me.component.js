@@ -10,6 +10,7 @@ import nodejs from '../../../public/img/skills/nodejs.png';
 import rwd from '../../../public/img/skills/rwd.png';
 import git from '../../../public/img/skills/git.png';
 import photoshop from '../../../public/img/skills/photoshop.png';
+import ember from '../../../public/img/skills/ember.png';
 import CV from '../../../public/CV.pdf';
 
 
@@ -32,9 +33,16 @@ export default class AboutMe extends Component {
             </p>
           </div>
           <div styleName="experience">
-            <p styleName="date">From 2016</p>
+            <p styleName="date">From 2016 to 2018</p>
             <p>
-              Working for <a href="https://tsh.io/">The Software House</a> as Frontend Web Developer
+              Working for <a href="https://tsh.io/" target="_blank">The Software House</a> as Frontend Web Developer
+            </p>
+          </div>
+
+          <div styleName="experience">
+            <p styleName="date">From 2018</p>
+            <p>
+              Frontend Web Developer at <a href="https://ac-project.net/" target="_blank">AC Project</a>
             </p>
           </div>
         </div>
@@ -71,6 +79,10 @@ export default class AboutMe extends Component {
           <div styleName="item">
             <img src={photoshop} styleName="photoshop" alt="Photoshop"/>
             <p>Photoshop</p>
+          </div>
+          <div styleName="item">
+            <img src={ember} alt="Emberjs"/>
+            <p>Ember</p>
           </div>
         </div>
 

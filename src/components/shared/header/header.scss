@@ -29,6 +29,9 @@
   margin-left: auto;
   display: flex;
   list-style-type: none;
+  @media (max-width: $screen-s) {
+    margin-right: auto;
+  }
   li {
     margin: 0 10px;
     @media (max-width: $screen-s) {
