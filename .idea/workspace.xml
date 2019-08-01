@@ -128,12 +128,7 @@
   <component name="NodeModulesDirectoryManager">
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="-227" />
-    <option name="y" value="-1056" />
-    <option name="width" value="1920" />
-    <option name="height" value="1056" />
-  </component>
+  <component name="ProjectId" id="1Oq5bkgDQIJtyBHskmchoPNisX7" />
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
       <profile-state>
@@ -213,6 +208,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SearchEverywhereHistoryKey" value="contactjs&#9;FILE&#9;file:///Users/tomaszmanka/portfolio/src/components/landing/contact/contact.component.js&#10;previewitem&#9;FILE&#9;file://C:/Users/Tomek/Google Drive/Projekty/inzynierka/front/src/components/table/preview-box/preview-item/preview-item.scss&#10;previewbox&#9;FILE&#9;file://C:/Users/Tomek/Google Drive/Projekty/inzynierka/front/src/components/table/preview-box/preview-box.component.js&#10;global&#9;FILE&#9;file://C:/Users/Tomek/Google Drive/Projekty/inzynierka/front/src/styles/_global.scss&#10;chatbo&#9;FILE&#9;file://C:/Users/Tomek/Google Drive/Projekty/inzynierka/front/src/components/table/chat-box/chat-box.scss&#10;edit&#9;FILE&#9;file://C:/Users/Tomek/Google Drive/Projekty/inzynierka/front/src/components/table/edit-box/edit-box.scss&#10;footerscss&#9;FILE&#9;file://C:/Users/Tomek/Google Drive/Projekty/inzynierka/front/src/components/footer/footer.scss&#10;control&#9;FILE&#9;file://C:/Users/Tomek/Google Drive/Projekty/inzynierka/front/src/components/table/control-bar/control-bar.component.js&#10;controlbar&#9;FILE&#9;file://C:/Users/Tomek/Google Drive/Projekty/inzynierka/front/src/components/table/control-bar/control-bar.scss&#10;tablescss&#9;FILE&#9;file://C:/Users/Tomek/Google Drive/Projekty/inzynierka/front/src/components/table/table.scss&#10;footer&#9;FILE&#9;file://C:/Users/Tomek/Google Drive/Projekty/inzynierka/front/src/components/footer/footer.scss" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="javascript.nodejs.core.library.configured.version" value="6.11.4" />
@@ -226,7 +222,8 @@
     <property name="node.js.selected.package.eslint" value="C:/Users/Tomek/Google Drive/Projekty/inzynierka/front/node_modules/eslint" />
     <property name="node.js.selected.package.prettier" value="" />
     <property name="node.js.selected.package.standard" value="C:/Users/Tomek/Google Drive/Projekty/inzynierka/front/node_modules/eslint" />
-    <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
+    <property name="nodejs_interpreter_path" value="node" />
+    <property name="nodejs_package_manager_path" value="yarn" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.JavaScript" />
   </component>
   <component name="RecentsManager">
