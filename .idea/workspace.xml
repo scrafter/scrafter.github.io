@@ -3,20 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="670c1206-07fa-4856-81c8-da6a700d3d6b" name="Default" comment="static files uploaded">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/main.40361efb.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/main.40361efb.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/media/CV.9a3df980.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/media/angular1.d63d8404.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/media/angular4.0c3b40f8.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/media/ember.45d6007e.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/media/git.2ff8e27d.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/media/home-bg.1a2e9fcf.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/media/nodejs.580b2043.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/media/photoshop.ab6d0ee4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/media/profile-photo.dfdbd065.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/media/react.8ef5af1c.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/media/redux.b882387a.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/media/rwd.81d8d06e.png" beforeDir="false" />
     </list>
     <list id="006b7d7f-1e25-4082-9c44-edc07cd96844" name="idea" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -31,15 +17,6 @@
         <option value="HTML File" />
       </list>
     </option>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>exclude</find>
-      <find>exclude: [</find>
-      <find>plugins</find>
-      <find>scss</find>
-      <find>appReducer</find>
-    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -70,7 +47,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SearchEverywhereHistoryKey" value="contactjs&#9;FILE&#9;file:///Users/tomaszmanka/portfolio/src/components/landing/contact/contact.component.js&#10;previewitem&#9;FILE&#9;file://C:/Users/Tomek/Google Drive/Projekty/inzynierka/front/src/components/table/preview-box/preview-item/preview-item.scss&#10;previewbox&#9;FILE&#9;file://C:/Users/Tomek/Google Drive/Projekty/inzynierka/front/src/components/table/preview-box/preview-box.component.js&#10;global&#9;FILE&#9;file://C:/Users/Tomek/Google Drive/Projekty/inzynierka/front/src/styles/_global.scss&#10;chatbo&#9;FILE&#9;file://C:/Users/Tomek/Google Drive/Projekty/inzynierka/front/src/components/table/chat-box/chat-box.scss&#10;edit&#9;FILE&#9;file://C:/Users/Tomek/Google Drive/Projekty/inzynierka/front/src/components/table/edit-box/edit-box.scss&#10;footerscss&#9;FILE&#9;file://C:/Users/Tomek/Google Drive/Projekty/inzynierka/front/src/components/footer/footer.scss&#10;control&#9;FILE&#9;file://C:/Users/Tomek/Google Drive/Projekty/inzynierka/front/src/components/table/control-bar/control-bar.component.js&#10;controlbar&#9;FILE&#9;file://C:/Users/Tomek/Google Drive/Projekty/inzynierka/front/src/components/table/control-bar/control-bar.scss&#10;tablescss&#9;FILE&#9;file://C:/Users/Tomek/Google Drive/Projekty/inzynierka/front/src/components/table/table.scss&#10;footer&#9;FILE&#9;file://C:/Users/Tomek/Google Drive/Projekty/inzynierka/front/src/components/footer/footer.scss" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="javascript.nodejs.core.library.configured.version" value="6.11.4" />
+    <property name="javascript.nodejs.core.library.configured.version" value="8.10.0" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.prettier" value="true" />
@@ -120,7 +97,7 @@
       <workItem from="1509391747876" duration="10637000" />
       <workItem from="1523296407319" duration="2361000" />
       <workItem from="1529327197595" duration="292000" />
-      <workItem from="1564692361514" duration="354000" />
+      <workItem from="1564692361514" duration="1201000" />
     </task>
     <task id="LOCAL-00001" summary="HTR reverted, main components added">
       <created>1509405168052</created>
@@ -150,7 +127,21 @@
       <option name="project" value="LOCAL" />
       <updated>1564692597203</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="static files uploaded">
+      <created>1564692737435</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1564692737435</updated>
+    </task>
+    <task id="LOCAL-00006" summary="static files uploaded">
+      <created>1564692936800</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1564692936800</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
